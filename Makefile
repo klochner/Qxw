@@ -23,8 +23,8 @@
 
 all: qxw
 
-COPTS := -O9 -Wall
-LFLAGS := -lgtk-x11-2.0 -lgdk-x11-2.0 -lm -lcairo -lgobject-2.0
+COPTS := -O9 -Wall -fnested-functions
+LFLAGS := -lgtk-x11-2.0 -lgdk-x11-2.0 -lm -lcairo -lgobject-2.0 -lpcre -L/opt/local/lib
 
 qxw: qxw.o filler.o dicts.o gui.o draw.o
 	gcc -rdynamic -Wall -ldl qxw.o filler.o dicts.o gui.o draw.o $(LFLAGS) -o qxw
