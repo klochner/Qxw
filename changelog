@@ -1,0 +1,26 @@
+CHANGES IN VERSION 20110826
+
+Minor change to examples
+Changelog included in release
+
+PRINCIPAL CHANGES IN VERSION 20110818
+
+Minor bug fixes
+Hex and circular grids
+Cell merging
+Minor changes to editing keys: PgUp/Dn, arrow keys, space and tab
+Use Home/End within a light
+Grid size set via `Grid properties' in Edit menu
+Multiple dictionaries, reloadable during construction
+Dictionary filtering using PCRE
+Answer treatments, custom plug-ins
+Select sets of cells or sets of lights and apply properties to them; shift-right click
+Zoom view
+Improved rendering
+PNG export, HTML+PNG export
+New save format (will read old files)
+Better reporting of errors
+Title and author recorded
+Digits allowed in grid
+Manual now available
+Scores removed from display (but still work as before underneath)
