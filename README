@@ -1,0 +1,23 @@
+This is the Qxw crossword creation software from:  http://www.quinapalus.com/qxw.html
+
+The Makefile has been edited to get it working with snowleopard on mac, after following
+the suggestions from the Qxw site:
+
+1. If not installed already, use Darwin Ports to install gtk2 (do not use jhbuild or similar):
+
+    sudo port install gtk2
+
+2. If there are issues, remove outdated libraries with
+
+    sudo port uninstall outdated
+
+and update all packages using
+
+    sudo port upgrade installed
+
+following any command line instructions to link libs to the right place, and then try installing gtk2.
+
+3. Make sure that pkgconfig is installed with
+
+    sudo port install pkgconfig
+
